@@ -1,0 +1,21 @@
+From: Jordan Lee <jordan@brightsidebakery.com>
+To: orders@northpeaksupply.com
+Subject: New order - PO 6612
+Date: Tue, 15 Jul 2026 09:12:00 -0700
+
+Hi team,
+
+Please set up the following order for Brightside Bakery. Ship to our
+Bellevue location at 210 Maple Ave, Bellevue, WA 98004. Bill to the same.
+
+  - 15x  CB-1201  Colombia Supremo whole bean, 5 lb   @ $62.00
+  - 4x   FLR-AP   All-purpose flour, 25 lb sack        @ $18.40
+  - 30x  SYR-CAR  Caramel syrup, 1 L                    @ $9.20
+
+Our PO number is PO-6612. We'd like delivery by July 22 if possible.
+Payment terms Net 15.
+
+Thanks,
+Jordan Lee
+Brightside Bakery
+(425) 555-0199

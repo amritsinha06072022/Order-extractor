@@ -1,0 +1,5 @@
+# Core dependency for the extractor
+anthropic>=0.40.0
+
+# Only needed if you want to regenerate the sample invoice PDF (make_sample_invoice.py)
+reportlab>=4.0.0

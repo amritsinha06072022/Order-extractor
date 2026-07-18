@@ -1,0 +1,19 @@
+# Virtual environments (never commit these)
+Interpreter/
+venv/
+.venv/
+env/
+
+# IDE / editor config
+.idea/
+.vscode/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Extractor output
+output/
+
+# Secrets — if you move your key into a .env file, it stays out of git
+.env
