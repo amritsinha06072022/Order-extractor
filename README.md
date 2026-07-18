@@ -23,7 +23,7 @@ description, quantity, unit price, line total).
 - **Modular Design:** Separates API communication from data processing logic.
 
 ## Prerequisites
-- Python 3.x
+- Python 3.10
 - An active Anthropic API Key.
 
 ## Setup
