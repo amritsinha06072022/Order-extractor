@@ -17,6 +17,15 @@ description, quantity, unit price, line total).
 | `make_sample_invoice.py` | Regenerates the sample PDF (optional). |
 | `requirements.txt` | Dependencies. |
 
+## Features
+- **Automated Extraction:** Uses LLM-based parsing to identify key entities (items, prices, shipping addresses).
+- **Structured Output:** Easily exports data to JSON and CSV for integration into other systems.
+- **Modular Design:** Separates API communication from data processing logic.
+
+## Prerequisites
+- Python 3.x
+- An active Anthropic API Key.
+
 ## Setup
 
 ```bash
