@@ -115,3 +115,7 @@ into `CSV_COLUMNS` / `flatten_rows` for the CSV output.
   inline base64. Ask if you want that variant.
 - **Cost:** each PDF page is roughly 1,500–3,000 input tokens plus a small
   output cost per document.
+
+  ## License
+
+Released under the MIT Licence. See `LICENSE` for details.
