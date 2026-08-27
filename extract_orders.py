@@ -20,8 +20,7 @@ usually what you want to drop into a spreadsheet or database.
 
 The API key
 -----------
-Paste your key into the KEY variable below. If you leave it blank the script
-falls back to the ANTHROPIC_API_KEY environment variable.
+Set up the API key with your key in the environment variables as shown in the setup. Do not paste it in this code.
 """
 
 import argparse
@@ -38,7 +37,7 @@ import anthropic
 # Paste your Anthropic API key between the quotes. Leaving it blank makes the
 # script read the ANTHROPIC_API_KEY environment variable instead.
 # ---------------------------------------------------------------------------
-KEY = ""
+KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # Which model to use. Sonnet is the cost-efficient default and is plenty strong
 # for document extraction. Swap to "claude-opus-4-8" for the hardest documents,
