@@ -33,10 +33,6 @@ from pathlib import Path
 
 import anthropic
 
-# ---------------------------------------------------------------------------
-# Paste your Anthropic API key between the quotes. Leaving it blank makes the
-# script read the ANTHROPIC_API_KEY environment variable instead.
-# ---------------------------------------------------------------------------
 KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # Which model to use. Sonnet is the cost-efficient default and is plenty strong
