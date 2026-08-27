@@ -7,7 +7,7 @@ For every file it pulls out the customer, supplier, order metadata (order
 number, PO number, dates, currency, totals) and every line item (SKU,
 description, quantity, unit price, line total).
 
-## Headline Result
+## Output
 
 Everything lands in the `output/` folder (or whatever you pass to `-o`):
 
