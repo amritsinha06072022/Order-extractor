@@ -116,6 +116,13 @@ into `CSV_COLUMNS` / `flatten_rows` for the CSV output.
 - **Cost:** each PDF page is roughly 1,500–3,000 input tokens plus a small
   output cost per document.
 
+## Limitations & next steps
+
+- **No reconciliation on the output.** The forced tool call guarantees well-formed JSON in the right shape, but doesn't check that `line_total` equals `quantity × unit_price` or that totals sum correctly — a validation pass would catch silent extraction errors.
+- **One order per document.** Multi-invoice PDFs or email threads containing several orders are treated as a single order; they'd need splitting first.
+- **No confidence signal.** Every field comes back as a flat best guess, so a shaky extraction looks identical to a certain one. Surfacing per-field confidence would let a human review only the doubtful cases.
+- **Scans are read as-is.** Badly skewed or faint scanned PDFs degrade accuracy, with no pre-processing step to correct them.
+
 ## License
 
 Released under the MIT Licence. See `LICENSE` for details.
